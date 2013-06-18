@@ -1,0 +1,62 @@
+        
+        #Text5
+        {
+            width: 50px;
+        }
+        #Text13
+        {
+            width: 128px;
+        }
+        #Text14
+        {
+            width: 128px;
+        }
+        #Text15
+        {
+            width: 7px;
+        }
+        #eeStatus
+        {
+            width: 128px;
+        }
+        
+        .auto-style3
+        {
+            width: 241px;
+        }
+        input
+        {
+            width:200px;
+        }
+                
+        #TextArea1
+        {
+            width: 200px;
+        }
+        select
+        {
+            width:200px;
+        } 
+        hr
+        {
+            width:100%;
+        }   
+        .style1
+        {
+            width: 200px;
+        }
+        fieldset
+        {
+            background:#F0F8FF; 
+            margin-left:18%; 
+            width:500PX;
+        }
+        legend
+        {
+            background:#D3D3D3;
+        }
+        span
+        {
+			color:red;
+		}
+

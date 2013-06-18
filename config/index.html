@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>YCR</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <!-- stylesheets -->
+  <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/colour.css" rel="stylesheet" type="text/css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="scripts/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+<div class="searchform">
+    <form id="formsearch" name="formsearch" method="get" action="index.php">
+          <span>
+              
+          <input name="Search_term" class="editbox_search" id="editbox_search" maxlength="80" value="<?php $this; ?>" type="text" />
+          </span>
+              <input type="image" name="button_search" src="images/search.gif" class="button_search" alt="" />
+        </form>
+<?php echo ?>
+    <!-- begin header -->
+    <header>
+      <div id="logo"><h1>YOU<a href="#">CHOOSE</a>RECRUIT</h1></div>
+	
+      </div>
+   
+	<nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.php">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="blog.html">Services</a></li>
+	  <li><a href="login.html">Login</a></li>
+	  <li><a href="consult.html">Consultant</a></li>
+
+          <li><a href="contact.php">Contact</a></li>
+	  <li><a href="contact.php">News</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- begin content -->
+    <div id="site_content">
+      <ul class="slideshow">
+        <li class="show"><img width="950" height="410" src="images/ycr1.jpg" alt="&quot;Raising the bar in Recruitment&quot;"/></li>
+        <li><img width="950" height="410" src="images/ycr2.jpg" alt="&quot;Raising the bar in Recruitment&quot;"/></li>
+        <li><img width="950" height="410" src="images/ycr3.jpg" alt="&quot;Raising the bar in Recruitment&quot;"/></li>
+        <li><img width="950" height="410" src="images/ycr4.jpg" alt="&quot;Raising the bar in Recruitment&quot;"/></li>
+        <li><img width="950" height="410" src="images/ycr5.jpg" alt="&quot;Raising the bar in Recruitment&quot;"/></a></strong></li>
+        <li><img width="950" height="410" src="images/ycr6.jpg" alt="&quot;Raising the bar in Recruitment&quot;"/></li>
+       
+	</ul>
+    </div>
+    <!-- end content -->
+
+    <!-- begin footer -->
+    <footer>
+      <p>Copyright &copy; 2012 PhotoArtWork2. All Rights Reserved. <a href="http://www.css3templates.co.uk">Design from css3templates.co.uk</a>.</p>
+      <p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+    </footer>
+    <!-- end footer -->
+
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="scripts/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="scripts/image_fade.js"></script>
+  <!-- initialise sooperfish menu -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>

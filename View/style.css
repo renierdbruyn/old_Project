@@ -1,0 +1,154 @@
+input
+{
+	width:200px;
+	height:25px;
+	left:250px;	
+	position:absolute;
+	border:1px solid #B1B1B1;
+	
+}
+textarea
+{
+	width:200px;
+	height:50px;
+	left:250px;	
+	position:absolute;
+	border:1px solid #B1B1B1;
+	
+}
+.languages
+{
+	width:350px;
+	height:250px;
+}
+p select
+{
+	visibility:hidden;
+}
+p:hover select
+{
+	visibility:visible;
+	
+}
+select
+{
+	width:200px;
+	height:30px;
+	left:250px;	
+	position:absolute;
+}
+label
+{
+	height:30px;
+	font-weight:bold;
+}
+body
+{
+	background:#B1B1B1;
+}
+.button
+{
+	background:#000000;
+	color:white;
+	border:0px;
+}
+.add
+{
+	position:absolute;
+	left:10px;
+	background:#000000;
+	color:white;
+	border:0px;
+}
+.divHeading
+{
+	background:#F0F0F0;
+}
+.colTwo
+{
+	position:absolute;
+	left:500px;
+	width:200px;
+	height:auto;
+	top:60px;
+}
+.optionBold
+{
+	background:Black;
+	color:White;
+	font-weight:bold;
+	text-align:center;
+	font-size:20px;
+	height:30px;
+}
+.duration
+{
+	width:100px;
+	height:30px;
+	clear:right;
+}
+.duration2
+{
+	position:absolute;
+	left:350px;
+	width:100px;
+	height:30px;
+}
+button
+{
+ width:100%;
+ height:50px;
+ padding:0px;
+ border:0px;    
+ z-index:3;
+ background:#F0F0F0;
+ outline:none;
+ font-size:20px;
+}
+button:focus
+{
+    background:#B1B1B1;
+    outline:none;
+}
+iframe
+{
+    width:100%;
+    height:80%;   
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    top:60px;
+    left:2px;
+    z-index:-1;
+    border:0PX;
+}
+th
+{
+	width:16%;
+}
+.div1
+{
+	height:50px;
+	width:100%;
+	position:absolute;
+	left:0px;
+	right:0px;
+}
+
+.div2
+{
+	
+	width:100%;
+	height:auto;
+}
+.cv
+{
+	background:Black;
+	height:80%;
+}
+.navigation
+{
+	width:50%;
+	height:20px;
+	position:relative;
+}
